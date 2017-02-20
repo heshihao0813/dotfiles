@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Installed Extensions</key>
+	<array>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+			<key>Extension Identifier</key>
+			<string>com.pilotmoon.popclip.extension.omnifocus</string>
+			<key>Extension Name</key>
+			<string>OmniFocus</string>
+			<key>Options</key>
+			<array/>
+			<key>Options Account Title</key>
+			<string>OmniFocus</string>
+			<key>Options Title</key>
+			<string></string>
+			<key>Package Name</key>
+			<string>OmniFocus.popclipext</string>
+			<key>PackagePath</key>
+			<string>/Users/heshihao/Library/Application Support/PopClip/Extensions/OmniFocus.popclipext</string>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

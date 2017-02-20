@@ -1,0 +1,73 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      enabled: false
+    playAudio: {}
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+    useCoreMovementCommands: false
+  autosave:
+    enabled: true
+  core:
+    automaticallyUpdate: false
+    disabledPackages: [
+      "language-php"
+      "language-perl"
+      "language-objective-c"
+      "language-mustache"
+      "language-c"
+      "language-clojure"
+      "language-csharp"
+      "language-go"
+      "language-java"
+      "language-make"
+      "language-property-list"
+      "language-source"
+      "language-toml"
+      "language-yaml"
+      "activate-power-mode"
+      "autocomplete-haskell"
+      "haskell-ghc-mod"
+      "ide-haskell"
+      "language-gfm"
+      "markdown-preview"
+    ]
+    packagesWithKeymapsDisabled: [
+      "goto-last-edit"
+    ]
+    projectHome: "/Users/heshihao/Documents/workspace"
+    telemetryConsent: "no"
+  date:
+    dateFormat: "MM/DD/YYYY"
+    timeFormat: "HH:MI:SS PP"
+  editor: {}
+  "exception-reporting":
+    userId: "3fe16eb7-eaab-8a59-6b6f-50fbb9ba44ce"
+  "gist-it":
+    userToken: "110a009a1aa78b7c9b1ecf637948793a01c569f4"
+  "haskell-ghc-mod": {}
+  linter:
+    lintOnFly: false
+  "markdown-preview":
+    breakOnSingleNewline: true
+    liveUpdate: false
+    useGitHubStyle: true
+  "markdown-preview-enhanced":
+    mathRenderingOption: "None"
+  "markdown-writer": {}
+  react:
+    enabledForAllJavascriptFiles: true
+  "relative-numbers": {}
+  "tree-view":
+    hideIgnoredNames: true
+  "vim-mode-plus":
+    clearHighlightSearchOnResetNormalMode: true
+    clearPersistentSelectionOnResetNormalMode: true
+    highlightSearch: true
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
+  whitespace: {}
+".coffee.jsx.source":
+  editor:
+    autoIndent: false
