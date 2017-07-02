@@ -8,6 +8,10 @@
     useCoreMovementCommands: false
   autosave:
     enabled: true
+  "clang-format":
+    formatCOnSave: true
+    formatCPlusPlusOnSave: true
+    formatObjectiveCOnSave: true
   core:
     automaticallyUpdate: false
     disabledPackages: [
@@ -15,12 +19,8 @@
       "language-perl"
       "language-objective-c"
       "language-mustache"
-      "language-c"
       "language-clojure"
       "language-csharp"
-      "language-go"
-      "language-java"
-      "language-make"
       "language-property-list"
       "language-source"
       "language-toml"
@@ -31,6 +31,10 @@
       "ide-haskell"
       "language-gfm"
       "markdown-preview"
+      "language-ruby-on-rails"
+      "language-coffee-script"
+      "language-java"
+      "language-ruby"
     ]
     packagesWithKeymapsDisabled: [
       "goto-last-edit"
@@ -45,9 +49,16 @@
     userId: "3fe16eb7-eaab-8a59-6b6f-50fbb9ba44ce"
   "gist-it":
     userToken: "110a009a1aa78b7c9b1ecf637948793a01c569f4"
+  "git-plus":
+    general:
+      _analyticsUserId: "2aa9dbdd-51c7-486d-8096-f0e7a9038681"
+  "go-plus":
+    panel: {}
   "haskell-ghc-mod": {}
   linter:
     lintOnFly: false
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview":
     breakOnSingleNewline: true
     liveUpdate: false
@@ -55,9 +66,17 @@
   "markdown-preview-enhanced":
     mathRenderingOption: "None"
   "markdown-writer": {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      semi: false
+      singleQuote: true
+      useTabs: true
   react:
     enabledForAllJavascriptFiles: true
-  "relative-numbers": {}
+  "relative-numbers":
+    softWrapsCount: false
   "tree-view":
     hideIgnoredNames: true
   "vim-mode-plus":
@@ -65,6 +84,8 @@
     clearPersistentSelectionOnResetNormalMode: true
     highlightSearch: true
     useClipboardAsDefaultRegister: true
+  "vim-mode-plus-ex-mode":
+    notifiedUseExMode: true
   welcome:
     showOnStartup: false
   whitespace: {}

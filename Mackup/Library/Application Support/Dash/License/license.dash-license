@@ -5,21 +5,21 @@
 	<key>Product</key>
 	<string>Dash</string>
 	<key>Name</key>
-	<string>U ser</string>
+	<string>Yang Wang</string>
 	<key>Email</key>
-	<string>macsofts@netlic.net</string>
+	<string>lizhixiangwang@gmail.com</string>
 	<key>Licenses</key>
 	<string>1</string>
 	<key>Timestamp</key>
-	<string>1435624899</string>
-	<key>TransactionID</key>
-	<string>KAP150609-1837-57128</string>
+	<string>1487632616</string>
 	<key>Version</key>
-	<string>3</string>
+	<string>4</string>
+	<key>TransactionID</key>
+	<string>KAP170220-3181-48919</string>
 	<key>Signature</key>
-	<data>JxRyImcT3Ma+hXF4EuDUyswJL7EA8PS0wZo2QcrlpbWf79HH9n6NxcDxLkFGhSU//5vCX3nXSh+O
-WZMvORC2/jIyhnWFNteVOPTwqucgQdUFguwjH4BbwaFu2cRmu/1qATYSDMHbJGT7NViHqf9bPrZp
-S8BWArFM7GrXZjmRkbs=
+	<data>DxmY4cUBFC/iYn/zRodj/5EwhL/7TD5BKyqXAOHoE/K19lNCorbnTvWKGmTrWJC242/mT8DJ7Zod
+db5J98m8h0Q/YOfDHeDTyTkz5o5gYRAplIzBOqCGwdUjn1YHOI4OsMKH6LIML5VoHIpkxAOQwmmH
+iHrpg4CHXopKW1uB45Q=
 </data>
 </dict>
 </plist>
