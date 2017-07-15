@@ -2676,7 +2676,7 @@ macosx-continue-playback=1
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-auhal-volume=320
+auhal-volume=346
 
 # Last audio device (string)
 #auhal-audio-device=

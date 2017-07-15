@@ -35,6 +35,7 @@
       "language-coffee-script"
       "language-java"
       "language-ruby"
+      "hyperclick"
     ]
     packagesWithKeymapsDisabled: [
       "goto-last-edit"
