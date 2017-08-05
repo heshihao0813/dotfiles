@@ -36,6 +36,10 @@
       "language-java"
       "language-ruby"
       "hyperclick"
+      "go-debug"
+      "go-plus"
+      "go-signature-statusbar"
+      "language-haskell"
     ]
     packagesWithKeymapsDisabled: [
       "goto-last-edit"
@@ -57,7 +61,8 @@
     panel: {}
   "haskell-ghc-mod": {}
   linter:
-    lintOnFly: false
+    lintOnChange: false
+  "linter-eslint": {}
   "linter-ui-default":
     showPanel: true
   "markdown-preview":
@@ -73,13 +78,14 @@
     prettierOptions:
       semi: false
       singleQuote: true
-      useTabs: true
+    useEslint: true
   react:
     enabledForAllJavascriptFiles: true
   "relative-numbers":
     softWrapsCount: false
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   "vim-mode-plus":
     clearHighlightSearchOnResetNormalMode: true
     clearPersistentSelectionOnResetNormalMode: true
