@@ -30,7 +30,6 @@
       "haskell-ghc-mod"
       "ide-haskell"
       "language-gfm"
-      "markdown-preview"
       "language-ruby-on-rails"
       "language-coffee-script"
       "language-java"
@@ -85,7 +84,6 @@
     softWrapsCount: false
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   "vim-mode-plus":
     clearHighlightSearchOnResetNormalMode: true
     clearPersistentSelectionOnResetNormalMode: true
