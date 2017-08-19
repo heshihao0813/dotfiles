@@ -6,6 +6,8 @@
   "autocomplete-plus":
     confirmCompletion: "enter"
     useCoreMovementCommands: false
+  "autocomplete-python":
+    useKite: false
   autosave:
     enabled: true
   "clang-format":
@@ -26,19 +28,11 @@
       "language-toml"
       "language-yaml"
       "activate-power-mode"
-      "autocomplete-haskell"
-      "haskell-ghc-mod"
-      "ide-haskell"
       "language-gfm"
       "language-ruby-on-rails"
       "language-coffee-script"
       "language-java"
       "language-ruby"
-      "hyperclick"
-      "go-debug"
-      "go-plus"
-      "go-signature-statusbar"
-      "language-haskell"
     ]
     packagesWithKeymapsDisabled: [
       "goto-last-edit"
@@ -63,6 +57,7 @@
     lintOnChange: false
   "linter-eslint": {}
   "linter-ui-default":
+    panelHeight: 69
     showPanel: true
   "markdown-preview":
     breakOnSingleNewline: true

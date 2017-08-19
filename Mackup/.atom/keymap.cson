@@ -55,6 +55,19 @@
 
 # end
 
+# vim-mode-plus (not insert-mode)
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+
+  # keyboard-macros
+  'q': 'atom-keyboard-macros-vim:toggle_record_macro_vim'
+  '@': 'atom-keyboard-macros-vim:execute_macro_vim'
+  'Q': 'atom-keyboard-macros:call_last_kbd_macro'
+
+  # navigation
+  'shift-h': 'pane:show-previous-item'
+  'shift-l': 'pane:show-next-item'
+#end
+
 # autocomplete-plus
 'body atom-text-editor.autocomplete-active':
   'tab': 'autocomplete-plus:move-down'
@@ -63,10 +76,6 @@
 'body':
   'cmd-k cmd-j': 'window:focus-pane-below'
   'cmd-k cmd-k': 'window:focus-pane-above'
-'atom-text-editor.vim-mode-plus:not(.insert-mode)':
-  'shift-h': 'pane:show-previous-item'
-  'shift-l': 'pane:show-next-item'
-# end
 
 # tree view
 '.platform-darwin atom-text-editor':
