@@ -56,6 +56,8 @@
   linter:
     lintOnChange: false
   "linter-eslint": {}
+  "linter-markdown":
+    presetStyleGuideWithoutConfig: true
   "linter-ui-default":
     panelHeight: 69
     showPanel: true
@@ -79,6 +81,7 @@
     softWrapsCount: false
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   "vim-mode-plus":
     clearHighlightSearchOnResetNormalMode: true
     clearPersistentSelectionOnResetNormalMode: true
