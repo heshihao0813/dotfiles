@@ -1,21 +1,53 @@
 {
-  "workbench.colorTheme": "Atom One Dark",
-  "workbench.activityBar.visible": true,
   "window.zoomLevel": 1,
+  "workbench.colorTheme": "Atom One Dark",
   // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
   "editor.formatOnSave": true,
-  // Use system clipboard for unnamed register.
-  "vim.useSystemClipboard": true,
-  // Enable the EasyMotion plugin for Vim.
-  "vim.easymotion": true,
-  // Get rid of that annoying message that shows up everytime you make a new file
-  "vim.disableAnnoyingNeovimMessage": true,
   // Controls if the minimap is shown
   "editor.minimap.enabled": false,
+  // Controls the display of line numbers. Possible values are 'on', 'off', and 'relative'. 'relative' shows the line count from the current cursor position.
+  "editor.lineNumbers": "relative",
+  // Get rid of that annoying message that shows up everytime you make a new file
+  "vim.disableAnnoyingNeovimMessage": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-n>"],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  // Enable/disable default TypeScript formatter.
+  "typescript.format.enable": false,
+  // Control whether tslint is enabled for JavaScript files or not.
+  "tslint.jsEnable": true,
+  // Turns auto fix on save on or off, or defines which rules (e.g. `no-var-keyword`) to auto fix on save.
+  "tslint.autoFixOnSave": true,
   // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
   "prettier.eslintIntegration": true,
   // If true, will use single instead of double quotes
   "prettier.singleQuote": true,
   // Whether to add a semicolon at the end of every line
-  "prettier.semi": false
+  "prettier.semi": false,
+  "workbench.statusBar.visible": true,
+  "todohighlight.isEnable": true
 }

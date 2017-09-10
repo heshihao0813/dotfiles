@@ -51,7 +51,10 @@
     general:
       _analyticsUserId: "2aa9dbdd-51c7-486d-8096-f0e7a9038681"
   "go-plus":
-    panel: {}
+    panel:
+      currentHeight: "23.980582524271846vh"
+      currentWidth: "18.125vw"
+      orientation: "vertical"
   "haskell-ghc-mod": {}
   linter:
     lintOnChange: false

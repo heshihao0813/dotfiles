@@ -1,57 +1,17 @@
 [
   // Place your key bindings in this file to overwrite the defaults
   {
-    "key": "shift+h",
-    "command": "workbench.action.previousEditor"
-  },
-  {
-    "key": "shift+l",
-    "command": "workbench.action.nextEditor"
-  },
-  {
     "key": "ctrl+e",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "cmd+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "command": "list.collapse",
     "key": "h",
+    "command": "list.collapse",
     "when": "listFocus"
   },
   {
-    "command": "list.expand",
     "key": "l",
-    "when": "listFocus"
-  },
-  {
-    "key": "t",
-    "command": "explorer.openToSide",
-    "when": "explorerViewletFocus && explorerViewletVisible"
-  },
-  {
-    "key": "ctrl+enter",
-    "command": "-explorer.openToSide",
-    "when": "explorerViewletFocus && explorerViewletVisible"
-  },
-  {
-    "command": "explorer.newFile",
-    "key": "a",
-    "when": "explorerViewletFocus && explorerViewletVisible"
-  },
-  {
-    "key": "g g",
-    "command": "list.focusFirstChild"
-  },
-  {
-    "key": "shift+g",
-    "command": "list.focusLastChild"
-  },
-  {
-    "key": "o",
-    "command": "-list.toggleExpand",
+    "command": "list.expand",
     "when": "listFocus"
   },
   {
@@ -60,8 +20,23 @@
     "when": "listFocus"
   },
   {
-    "key": "cmd+down",
-    "command": "-list.select",
-    "when": "listFocus"
+    "key": "t",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  {
+    "key": "g g",
+    "command": "list.focusFirstChild",
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  {
+    "key": "shift+g",
+    "command": "list.focusLastChild",
+    "when": "explorerViewletFocus && explorerViewletVisible"
   }
 ]
