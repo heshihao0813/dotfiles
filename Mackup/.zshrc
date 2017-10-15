@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export GOPATH=$HOME/Documents/workspace/go
+export GOPATH=$HOME/Documents/workspace/go:$HOME/Documents/workspace/go/src
 export GOROOT=$(go env GOROOT)
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
@@ -87,3 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias workspace="cd ~/Documents/workspace"
 alias markdown="cd ~/Documents/markdown"
+
+# Fix for pipenv
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

@@ -49,5 +49,6 @@
   // Whether to add a semicolon at the end of every line
   "prettier.semi": false,
   "workbench.statusBar.visible": true,
-  "todohighlight.isEnable": true
+  "todohighlight.isEnable": true,
+  "extensions.autoUpdate": false
 }

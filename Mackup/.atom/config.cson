@@ -51,10 +51,12 @@
     general:
       _analyticsUserId: "2aa9dbdd-51c7-486d-8096-f0e7a9038681"
   "go-plus":
+    format: {}
+    lint: {}
     panel:
       currentHeight: "23.980582524271846vh"
       currentWidth: "18.125vw"
-      orientation: "vertical"
+      displayMode: "closed"
   "haskell-ghc-mod": {}
   linter:
     lintOnChange: false
@@ -89,6 +91,7 @@
     clearHighlightSearchOnResetNormalMode: true
     clearPersistentSelectionOnResetNormalMode: true
     highlightSearch: true
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
     useClipboardAsDefaultRegister: true
   "vim-mode-plus-ex-mode":
     notifiedUseExMode: true
