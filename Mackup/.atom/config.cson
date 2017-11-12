@@ -42,7 +42,8 @@
   date:
     dateFormat: "MM/DD/YYYY"
     timeFormat: "HH:MI:SS PP"
-  editor: {}
+  editor:
+    scrollPastEnd: true
   "exception-reporting":
     userId: "3fe16eb7-eaab-8a59-6b6f-50fbb9ba44ce"
   "gist-it":
