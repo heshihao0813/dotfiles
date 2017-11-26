@@ -65,7 +65,6 @@
   "linter-markdown":
     presetStyleGuideWithoutConfig: true
   "linter-ui-default":
-    panelHeight: 69
     showPanel: true
   "markdown-preview":
     breakOnSingleNewline: true
