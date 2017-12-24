@@ -1,6 +1,8 @@
 {
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Atom One Dark",
+  // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing) and show up with an italic font style.
+  "workbench.editor.enablePreview": false,
   // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
   "editor.formatOnSave": true,
   // Controls if the minimap is shown
@@ -8,7 +10,6 @@
   // Controls the display of line numbers. Possible values are 'on', 'off', and 'relative'. 'relative' shows the line count from the current cursor position.
   "editor.lineNumbers": "relative",
   // Get rid of that annoying message that shows up everytime you make a new file
-  "vim.disableAnnoyingNeovimMessage": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
@@ -16,13 +17,20 @@
   "vim.hlsearch": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.otherModesKeyBindingsNonRecursive": [
     {
-      "before": ["<C-n>"],
+      "before": [
+        "<C-n>"
+      ],
       "after": [],
       "commands": [
         {

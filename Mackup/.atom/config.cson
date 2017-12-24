@@ -26,13 +26,12 @@
       "language-property-list"
       "language-source"
       "language-toml"
-      "language-yaml"
       "activate-power-mode"
       "language-gfm"
       "language-ruby-on-rails"
-      "language-coffee-script"
       "language-java"
       "language-ruby"
+      "linter"
     ]
     packagesWithKeymapsDisabled: [
       "goto-last-edit"
@@ -59,13 +58,13 @@
       currentWidth: "18.125vw"
       displayMode: "closed"
   "haskell-ghc-mod": {}
+  "language-markdown": {}
   linter:
     lintOnChange: false
   "linter-eslint": {}
   "linter-markdown":
     presetStyleGuideWithoutConfig: true
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "markdown-preview":
     breakOnSingleNewline: true
     liveUpdate: false
@@ -91,7 +90,6 @@
     clearHighlightSearchOnResetNormalMode: true
     clearPersistentSelectionOnResetNormalMode: true
     highlightSearch: true
-    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
     useClipboardAsDefaultRegister: true
   "vim-mode-plus-ex-mode":
     notifiedUseExMode: true
@@ -101,3 +99,7 @@
 ".coffee.jsx.source":
   editor:
     autoIndent: false
+".md.text":
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: true

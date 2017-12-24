@@ -1,7 +1,9 @@
 # If you come from bash you might have to change your $PATH.
-export GOPATH=$HOME/Documents/workspace/go:$HOME/Documents/workspace/go/src
+export GOPATH=$HOME/Documents/workspace/go
 export GOROOT=$(go env GOROOT)
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# hyperledger-fabric
+export HFPATH=$HOME/Documents/workspace/hyperledger
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$HFPATH/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -91,3 +93,6 @@ alias markdown="cd ~/Documents/markdown"
 # Fix for pipenv
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+export NVM_DIR="/Users/heshihao/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
