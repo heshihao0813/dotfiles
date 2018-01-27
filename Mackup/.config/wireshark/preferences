@@ -1,4 +1,4 @@
-# Configuration file for Wireshark 2.4.0.
+# Configuration file for Wireshark 2.4.3.
 #
 # This file is regenerated each time preferences are saved within
 # Wireshark. Making manual changes should be safe, however.
@@ -275,7 +275,7 @@ gui.qt.font_name: Menlo,13,-1,5,50,0,0,0,0,0
 
 # Interface link-layer header types (Ex: en0(1),en1(143),...)
 # A string
-capture.devices_linktypes: en0(1),p2p0(12),awdl0(1),bridge0(1),utun0(0),en1(1),utun1(0),en2(1),utun2(0),en3(1),en4(1),en5(1),lo0(0),gif0(0),stf0(0),cisco(147),randpkt(147),ssh(147),udpdump(252)
+capture.devices_linktypes: en0(1),p2p0(12),awdl0(1),bridge0(1),utun0(0),en1(1),utun1(0),en2(1),utun2(0),en3(1),en4(1),lo0(0),gif0(0),stf0(0),XHC0(266),XHC1(266),XHC20(266),cisco(147),randpkt(147),ssh(147),udpdump(252)
 
 # Interface descriptions (Ex: eth0(eth0 descr),eth1(eth1 descr),...)
 # A string
@@ -291,15 +291,15 @@ capture.devices_linktypes: en0(1),p2p0(12),awdl0(1),bridge0(1),utun0(0),en1(1),u
 
 # Interface buffer size (Ex: en0(1),en1(143),...)
 # A string
-capture.devices_buffersize: en0(2),p2p0(2),awdl0(2),bridge0(2),utun0(2),en1(2),utun1(2),en2(2),utun2(2),en3(2),en4(2),en5(2),lo0(2),gif0(2),stf0(2),cisco(2),randpkt(2),ssh(2),udpdump(2)
+capture.devices_buffersize: en0(2),p2p0(2),awdl0(2),bridge0(2),utun0(2),en1(2),utun1(2),en2(2),utun2(2),en3(2),en4(2),lo0(2),gif0(2),stf0(2),XHC0(2),XHC1(2),XHC20(2),cisco(2),randpkt(2),ssh(2),udpdump(2)
 
 # Interface snap length (Ex: en0(65535),en1(1430),...)
 # A string
-capture.devices_snaplen: en0:0(262144),p2p0:0(262144),awdl0:0(262144),bridge0:0(262144),utun0:0(262144),en1:0(262144),utun1:0(262144),en2:0(262144),utun2:0(262144),en3:0(262144),en4:0(262144),en5:0(262144),lo0:0(262144),gif0:0(262144),stf0:0(262144),cisco:0(262144),randpkt:0(262144),ssh:0(262144),udpdump:0(262144)
+capture.devices_snaplen: en0:0(262144),p2p0:0(262144),awdl0:0(262144),bridge0:0(262144),utun0:0(262144),en1:0(262144),utun1:0(262144),en2:0(262144),utun2:0(262144),en3:0(262144),en4:0(262144),lo0:0(262144),gif0:0(262144),stf0:0(262144),XHC0:0(262144),XHC1:0(262144),XHC20:0(262144),cisco:0(262144),randpkt:0(262144),ssh:0(262144),udpdump:0(262144)
 
 # Interface promiscuous mode (Ex: en0(0),en1(1),...)
 # A string
-capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(1),en2(1),utun2(1),en3(1),en4(1),en5(1),lo0(1),gif0(1),stf0(1),cisco(1),randpkt(1),ssh(1),udpdump(1)
+capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(1),en2(1),utun2(1),en3(1),en4(1),lo0(1),gif0(1),stf0(1),XHC0(1),XHC1(1),XHC20(1),cisco(1),randpkt(1),ssh(1),udpdump(1)
 
 # Capture in promiscuous mode?
 # TRUE or FALSE (case-insensitive)
@@ -368,7 +368,7 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(
 
 # Remote SSH server username
 # A string
-#extcap.ssh.remoteusername: heshihao
+#extcap.ssh.remoteusername: root
 
 # Path to SSH private key
 # A string
@@ -388,7 +388,7 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(
 
 # Remote capture filter
 # A string
-#extcap.ssh.remotefilter: not ((host fe80::aede:48ff:fe00:1122 or host fe80::c2cd:b3d7:ec8c:2dd5 or host fe80::300f:23b6:8b11:bd5a or host fe80::4583:f6a0:f080:8f62 or host fe80::ec60:62ff:fe87:b024 or host 192.168.31.93 or host fe80::411:c8c0:86f6:99c7 or host fe80::1) and port 22)
+#extcap.ssh.remotefilter: not ((host fe80::258a:2bbf:a7ed:7f9e or host fe80::209c:af7c:cec7:8702 or host fe80::bbb3:fc6:4793:6c5a or host fe80::463:fff:fe0e:5b15 or host 172.20.10.2 or host fe80::1465:378e:7cd2:d2c7 or host fe80::aede:48ff:fe00:1122 or host fe80::1) and port 22)
 
 # Packets to capture
 # A string
@@ -432,7 +432,7 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(
 
 # Remote SSH server username
 # A string
-#extcap.cisco.remoteusername: heshihao
+#extcap.cisco.remoteusername: root
 
 # Path to SSH private key
 # A string
@@ -444,7 +444,7 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(
 
 # Remote capture filter
 # A string
-#extcap.cisco.remotefilter: deny tcp host fe80::aede:48ff:fe00:1122 any eq 22, deny tcp any eq 22 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::c2cd:b3d7:ec8c:2dd5 any eq 22, deny tcp any eq 22 host fe80::c2cd:b3d7:ec8c:2dd5, deny tcp host fe80::300f:23b6:8b11:bd5a any eq 22, deny tcp any eq 22 host fe80::300f:23b6:8b11:bd5a, deny tcp host fe80::4583:f6a0:f080:8f62 any eq 22, deny tcp any eq 22 host fe80::4583:f6a0:f080:8f62, deny tcp host fe80::ec60:62ff:fe87:b024 any eq 22, deny tcp any eq 22 host fe80::ec60:62ff:fe87:b024, deny tcp host 192.168.31.93 any eq 22, deny tcp any eq 22 host 192.168.31.93, deny tcp host fe80::411:c8c0:86f6:99c7 any eq 22, deny tcp any eq 22 host fe80::411:c8c0:86f6:99c7, deny tcp host fe80::1 any eq 22, deny tcp any eq 22 host fe80::1, permit ip any any
+#extcap.cisco.remotefilter: deny tcp host fe80::258a:2bbf:a7ed:7f9e any eq 22, deny tcp any eq 22 host fe80::258a:2bbf:a7ed:7f9e, deny tcp host fe80::209c:af7c:cec7:8702 any eq 22, deny tcp any eq 22 host fe80::209c:af7c:cec7:8702, deny tcp host fe80::bbb3:fc6:4793:6c5a any eq 22, deny tcp any eq 22 host fe80::bbb3:fc6:4793:6c5a, deny tcp host fe80::463:fff:fe0e:5b15 any eq 22, deny tcp any eq 22 host fe80::463:fff:fe0e:5b15, deny tcp host 172.20.10.2 any eq 22, deny tcp any eq 22 host 172.20.10.2, deny tcp host fe80::1465:378e:7cd2:d2c7 any eq 22, deny tcp any eq 22 host fe80::1465:378e:7cd2:d2c7, deny tcp host fe80::aede:48ff:fe00:1122 any eq 22, deny tcp any eq 22 host fe80::aede:48ff:fe00:1122, deny tcp host fe80::1 any eq 22, deny tcp any eq 22 host fe80::1, permit ip any any
 
 # Packets to capture
 # A string
@@ -467,6 +467,14 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(
 # Whether address/name pairs found in captured DNS packets should be used by Wireshark for name resolution.
 # TRUE or FALSE (case-insensitive)
 #nameres.dns_pkt_addr_resolution: TRUE
+
+# Use your system's configured name resolver (usually DNS) to resolve network names. Only applies when network name resolution is enabled.
+# TRUE or FALSE (case-insensitive)
+#nameres.use_external_name_resolver: TRUE
+
+# The maximum number of DNS requests that may be active at any time. A large value (many thousands) might overload the network or make your DNS server behave badly.
+# A decimal number
+#nameres.name_resolve_concurrency: 500
 
 # By default "hosts" files will be loaded from multiple sources. Checking this box only loads the "hosts" in the current profile.
 # TRUE or FALSE (case-insensitive)
@@ -1161,6 +1169,10 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(
 # One of: Off, Sent is AG, Rcvd is HS, Sent is HS, Rcvd is AG
 # (case-insensitive).
 #bthsp.hsp.hsp_role: Off
+
+# Detect retransmission based on SN (Sequence Number)
+# TRUE or FALSE (case-insensitive)
+#btle.detect_retransmit: TRUE
 
 # Turn on/off decode by next rules
 # TRUE or FALSE (case-insensitive)
@@ -3426,6 +3438,10 @@ capture.devices_pmode: en0(1),p2p0(1),awdl0(1),bridge0(1),utun0(1),en1(1),utun1(
 # Whether to add or not to the tree the AVP's payload length
 # TRUE or FALSE (case-insensitive)
 #radius.show_length: FALSE
+
+# Whether to interpret 241-246 as extended attributes according to RFC 6929
+# TRUE or FALSE (case-insensitive)
+#radius.disable_extended_attributes: FALSE
 
 # The SCCP SubSystem Number for RANAP (default 142)
 # A decimal number
