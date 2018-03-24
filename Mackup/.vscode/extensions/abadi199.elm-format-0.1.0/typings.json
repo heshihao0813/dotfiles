@@ -1,0 +1,8 @@
+{
+  "name": "elm-format",
+  "version": false,
+  "dependencies": {},
+  "ambientDependencies": {
+    "tmp": "registry:dt/tmp#0.0.0+20160317120654"
+  }
+}
