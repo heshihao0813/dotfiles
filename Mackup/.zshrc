@@ -55,7 +55,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew cp docker docker-compose git go node npm osx pip sudo vi-mode virtualenv)
+plugins=(brew cp docker docker-compose git go iterm2 node npm osx pip sudo vi-mode virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias workspace="cd ~/Documents/workspace"
+alias workspace="itermocil workspace"
 alias markdown="cd ~/Documents/markdown"
 
 # Fix for pipenv
@@ -96,3 +96,6 @@ export LANG=en_US.UTF-8
 
 export NVM_DIR="/Users/heshihao/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+## itermocil autocompletion
+compctl -g '~/.itermocil/*(:t:r)' itermocil

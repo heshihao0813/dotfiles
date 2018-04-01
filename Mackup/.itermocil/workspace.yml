@@ -1,0 +1,7 @@
+windows:
+  - name: markdown-two-panes
+    root: ~/Documents/workspace
+    layout: even-horizontal
+    panes:
+      - ll
+      - ll

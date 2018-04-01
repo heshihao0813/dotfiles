@@ -1,63 +1,63 @@
 {
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Atom One Dark",
-    // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing) and show up with an italic font style.
-    "workbench.editor.enablePreview": true,
-    // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
-    "editor.formatOnSave": true,
-    // Controls if the minimap is shown
-    "editor.minimap.enabled": false,
-    // Controls the display of line numbers. Possible values are 'on', 'off', and 'relative'. 'relative' shows the line count from the current cursor position.
-    "editor.lineNumbers": "relative",
-    // Get rid of that annoying message that shows up everytime you make a new file
-    "vim.easymotion": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-      {
-        "before": [
-          "j",
-          "j"
-        ],
-        "after": [
-          "<Esc>"
-        ]
-      }
-    ],
-    "vim.otherModesKeyBindingsNonRecursive": [
-      {
-        "before": [
-          "<C-n>"
-        ],
-        "after": [],
-        "commands": [
-          {
-            "command": ":nohl"
-          }
-        ]
-      }
-    ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-      "<C-a>": false,
-      "<C-f>": false,
-      "<C-d>": true
-    },
-    // Enable/disable default TypeScript formatter.
-    "typescript.format.enable": false,
-    // Control whether tslint is enabled for JavaScript files or not.
-    "tslint.jsEnable": true,
-    // Turns auto fix on save on or off, or defines which rules (e.g. `no-var-keyword`) to auto fix on save.
-    "tslint.autoFixOnSave": true,
-    "workbench.statusBar.visible": true,
-    "todohighlight.isEnable": true,
-    "extensions.autoUpdate": true,
-    // Pick 'gofmt', 'goimports' or 'goreturns' to run on format.
-    "go.formatTool": "goimports",
-    // Path to Pylint, you can use a custom version of pylint by modifying this setting to include the full path.
-    "python.linting.pylintPath": "/usr/local/bin/pylint",
-    // Path to autopep8, you can use a custom version of autopep8 by modifying this setting to include the full path.
-    "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
-  }
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Atom One Dark",
+  // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing) and show up with an italic font style.
+  "workbench.editor.enablePreview": true,
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  "editor.formatOnSave": true,
+  // Controls if the minimap is shown
+  "editor.minimap.enabled": false,
+  // Controls the display of line numbers. Possible values are 'on', 'off', and 'relative'. 'relative' shows the line count from the current cursor position.
+  "editor.lineNumbers": "relative",
+  // Get rid of that annoying message that shows up everytime you make a new file
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": ":nohl"
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-d>": true
+  },
+  // Enable/disable default TypeScript formatter.
+  "typescript.format.enable": false,
+  // Control whether tslint is enabled for JavaScript files or not.
+  "tslint.jsEnable": true,
+  // Turns auto fix on save on or off, or defines which rules (e.g. `no-var-keyword`) to auto fix on save.
+  "tslint.autoFixOnSave": true,
+  "workbench.statusBar.visible": true,
+  "todohighlight.isEnable": true,
+  "extensions.autoUpdate": true,
+  // Pick 'gofmt', 'goimports' or 'goreturns' to run on format.
+  "go.formatTool": "goimports",
+  // Path to Pylint, you can use a custom version of pylint by modifying this setting to include the full path.
+  "python.linting.pylintPath": "/usr/local/bin/pylint",
+  // Path to autopep8, you can use a custom version of autopep8 by modifying this setting to include the full path.
+  "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
+}
