@@ -1,7 +1,20 @@
 windows:
   - name: markdown-two-panes
     root: ~/Documents/workspace
-    layout: even-horizontal
+    layout: tiled
     panes:
-      - ll
-      - ll
+      - commands:
+        - clear
+        - ll
+      - commands:
+        - cd java-kotlin
+        - clear
+        - ll
+      - commands:
+        - cd javascript
+        - clear
+        - ll
+      - commands:
+        - cd go/src/heshihao.zh
+        - clear
+        - ll
