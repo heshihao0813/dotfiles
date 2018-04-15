@@ -60,4 +60,14 @@
   "python.linting.pylintPath": "/usr/local/bin/pylint",
   // Path to autopep8, you can use a custom version of autopep8 by modifying this setting to include the full path.
   "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
 }
