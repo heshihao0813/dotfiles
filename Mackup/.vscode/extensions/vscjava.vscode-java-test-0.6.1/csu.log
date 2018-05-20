@@ -1,0 +1,38 @@
+Log file: C:\jenkins\workspace\vscode-java-test.vsix-withSign\java-test\extension\csu.log
+[5/7/2018 5:37:17 PM]  
+[5/7/2018 5:37:17 PM] *********************************************************************************
+[5/7/2018 5:37:17 PM] CodeSigningUtil Initiating
+[5/7/2018 5:37:17 PM] Submit: True
+[5/7/2018 5:37:17 PM] Watch: True
+[5/7/2018 5:37:17 PM] JobNumber: 
+[5/7/2018 5:37:17 PM] InputPath: C:\Signing\ToSign\
+[5/7/2018 5:37:17 PM] OutputPath: C:\Signing\Signed\
+[5/7/2018 5:37:17 PM] Certificate1: 170
+[5/7/2018 5:37:17 PM] Certificate2: 0
+[5/7/2018 5:37:17 PM] RelayServer: codesign.gtm.microsoft.com
+[5/7/2018 5:37:17 PM] RelayPort: 9556
+[5/7/2018 5:37:17 PM] Description: Azure-tools
+[5/7/2018 5:37:17 PM] KeyWords: code-sign
+[5/7/2018 5:37:17 PM] Approver1: destanko
+[5/7/2018 5:37:17 PM] Approver2: yugangw
+[5/7/2018 5:37:17 PM] Submitting job
+[5/7/2018 5:37:29 PM] Certificate1: 170
+[5/7/2018 5:37:32 PM] Adding file: C:\Signing\ToSign\com.microsoft.java.test.plugin-0.6.0.jar
+[5/7/2018 5:37:32 PM] Adding file: C:\Signing\ToSign\com.microsoft.java.test.runner-0.6.0.jar
+[5/7/2018 5:37:32 PM] Adding file: C:\Signing\ToSign\com.microsoft.java.test.runner.junit5-0.6.0-jar-with-dependencies.jar
+[5/7/2018 5:37:32 PM] Adding file: C:\Signing\ToSign\com.microsoft.java.test.runner.junit5-0.6.0.jar
+[5/7/2018 5:37:32 PM] Sending job
+[5/7/2018 5:38:06 PM] Sending job Complete
+[5/7/2018 5:38:06 PM] JobCompletionPath: \\PR1PD2CDSCVLT02.NORTHAMERICA.CORP.MICROSOFT.COM\0B\CMP\VSCJAVA\PRB135453131
+[5/7/2018 5:38:06 PM] JobNumber: PRB135453131
+[5/7/2018 5:38:06 PM] IsSuccess: False
+[5/7/2018 5:38:06 PM] Watching Job results
+[5/7/2018 5:39:44 PM] Job is finished, Success=True  Assemblies Signed=4  BytesSigned=1773537
+[5/7/2018 5:39:44 PM] OutputPath: C:\Signing\Signed\
+[5/7/2018 5:39:44 PM] CompletionPath: \\PR1PD2CDSCVLT02.NORTHAMERICA.CORP.MICROSOFT.COM\0B\CMP\VSCJAVA\PRB135453131
+[5/7/2018 5:39:45 PM] Copying file \\PR1PD2CDSCVLT02.NORTHAMERICA.CORP.MICROSOFT.COM\0B\CMP\VSCJAVA\PRB135453131\com.microsoft.java.test.plugin-0.6.0.jar to C:\Signing\Signed\com.microsoft.java.test.plugin-0.6.0.jar
+[5/7/2018 5:39:48 PM] Copying file \\PR1PD2CDSCVLT02.NORTHAMERICA.CORP.MICROSOFT.COM\0B\CMP\VSCJAVA\PRB135453131\com.microsoft.java.test.runner-0.6.0.jar to C:\Signing\Signed\com.microsoft.java.test.runner-0.6.0.jar
+[5/7/2018 5:39:50 PM] Copying file \\PR1PD2CDSCVLT02.NORTHAMERICA.CORP.MICROSOFT.COM\0B\CMP\VSCJAVA\PRB135453131\com.microsoft.java.test.runner.junit5-0.6.0-jar-with-dependencies.jar to C:\Signing\Signed\com.microsoft.java.test.runner.junit5-0.6.0-jar-with-dependencies.jar
+[5/7/2018 5:39:57 PM] Copying file \\PR1PD2CDSCVLT02.NORTHAMERICA.CORP.MICROSOFT.COM\0B\CMP\VSCJAVA\PRB135453131\com.microsoft.java.test.runner.junit5-0.6.0.jar to C:\Signing\Signed\com.microsoft.java.test.runner.junit5-0.6.0.jar
+[5/7/2018 5:39:59 PM] Signing succeeded
+[5/7/2018 5:39:59 PM] CodeSigningUtil Complete
