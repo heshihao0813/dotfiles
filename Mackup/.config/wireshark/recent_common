@@ -1,4 +1,4 @@
-# Recent settings file for Wireshark 2.4.3.
+# Recent settings file for Wireshark 2.6.0.
 #
 # This file is regenerated each time Wireshark is quit.
 # So be careful, if you want to make manual changes here.
@@ -11,17 +11,24 @@
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
+recent.display_filter: ip.dst_host
+recent.display_filter: ip.dst_host == 10.10.10.2
+recent.display_filter: ip.dst_host == 224.0.0.251
+recent.display_filter: ip.dst
+recent.display_filter: ip.addr == 10.10.10.2
+recent.display_filter: ip.addr == 10.10.0.2
 recent.display_filter: ssl
 recent.display_filter: http
+recent.display_filter: ip.dst_host = 224.0.0.251
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 0
-gui.geometry_main_y: 0
+gui.geometry_main_x: 480
+gui.geometry_main_y: 146
 gui.gtk.geometry_main_x: 20
 gui.gtk.geometry_main_y: 20
-gui.geometry_main_width: 1920
-gui.geometry_main_height: 1080
+gui.geometry_main_width: 960
+gui.geometry_main_height: 768
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).

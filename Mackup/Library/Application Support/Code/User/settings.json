@@ -1,6 +1,6 @@
 {
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "One Dark Pro Vivid",
   // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing) and show up with an italic font style.
   "workbench.editor.enablePreview": true,
   // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
@@ -70,4 +70,5 @@
     "suppressResultsExplorerNotice": false,
     "suppressShowKeyBindingsNotice": true
   },
+  "gitlens.historyExplorer.enabled": true,
 }
