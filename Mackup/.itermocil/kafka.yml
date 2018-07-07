@@ -1,0 +1,20 @@
+windows:
+  - name: kafka
+    layout: tiled
+    root: /usr/local/Cellar/kafka
+    panes:
+      - commands:
+        - clear
+        - ll
+      - commands:
+        - cd 1.1.0/bin
+        - clear
+        - ll
+      - commands:
+        - cd /usr/local/etc/kafka
+        - clear
+        - ll
+      - commands:
+        - brew services restart zookeeper
+        - brew services restart kafka
+        - brew services list

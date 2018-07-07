@@ -1,5 +1,5 @@
 windows:
-  - name: markdown-two-panes
+  - name: workspace
     root: ~/Documents/workspace
     layout: tiled
     panes:

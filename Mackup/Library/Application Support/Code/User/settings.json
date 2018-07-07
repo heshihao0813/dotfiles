@@ -9,6 +9,8 @@
   "editor.minimap.enabled": false,
   // Controls the display of line numbers. Possible values are 'on', 'off', and 'relative'. 'relative' shows the line count from the current cursor position.
   "editor.lineNumbers": "relative",
+  // The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
   // Get rid of that annoying message that shows up everytime you make a new file
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -26,7 +28,7 @@
       ]
     }
   ],
-  "vim.otherModesKeyBindingsNonRecursive": [
+  "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
         "<C-n>"
