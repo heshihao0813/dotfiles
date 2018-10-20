@@ -1,0 +1,13 @@
+windows:
+  - name: workspace
+    root: ~/Desktop/projects
+    layout: tiled
+    panes:
+      - commands:
+        - ll
+      - commands:
+        - ll
+      - commands:
+        - ll
+      - commands:
+        - ll

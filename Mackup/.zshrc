@@ -4,6 +4,8 @@ export GOROOT=$(go env GOROOT)
 # hyperledger-fabric
 export HFPATH=$HOME/Documents/workspace/hyperledger
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$HFPATH/bin
+# algs4
+export CLASSPATH=$CLASSPATH:~/Documents/workspace/java-kotlin/algs4/lib/algs4.jar
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -97,5 +99,24 @@ export LANG=en_US.UTF-8
 export NVM_DIR="/Users/heshihao/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-## itermocil autocompletion
+# itermocil autocompletion
 compctl -g '~/.itermocil/*(:t:r)' itermocil
+
+# Kafka
+# KAFKA_PATH=$(brew info kafka | awk '/usr.local.Cellar/ {print $1}')
+KAFKA_PATH="/usr/local/Cellar/kafka/2.0.0"
+alias ktopics="$KAFKA_PATH/libexec/bin/kafka-topics.sh --zookeeper localhost:2181"
+alias kproduce="$KAFKA_PATH/libexec/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic"
+function kcreate() {
+  ktopics --create --topic $1 --replication-factor $2 --partitions $3 --config cleanup.policy=compact
+}
+function kconsume() {
+  $KAFKA_PATH/libexec/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
+    --topic $1 \
+    --from-beginning \
+    --formatter kafka.tools.DefaultMessageFormatter \
+    --property print.key=true \
+    --property print.value=true \
+    --property key.deserializer=org.apache.kafka.common.serialization.$2Deserializer \
+    --property value.deserializer=org.apache.kafka.common.serialization.$3Deserializer
+}
