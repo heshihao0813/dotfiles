@@ -90,6 +90,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias workspace="itermocil workspace"
+alias projects="itermocil projects"
 alias markdown="cd ~/Documents/markdown"
 
 # Fix for pipenv
