@@ -4,6 +4,62 @@
 <array>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>com.apple.systempreferences</string>
+		<key>Name</key>
+		<string>System Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/System Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Dictionary</string>
+		<key>Name</key>
+		<string>Dictionary</string>
+		<key>NewFile</key>
+		<string>/Applications/Dictionary.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.devon-technologies.thinkpro2</string>
+		<key>Name</key>
+		<string>DEVONthink Pro</string>
+		<key>NewFile</key>
+		<string>/Applications/DEVONthink Pro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.readdle.PDFExpert-Mac</string>
+		<key>Name</key>
+		<string>PDF Expert</string>
+		<key>NewFile</key>
+		<string>/Applications/PDF Expert.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.agilebits.onepassword7-updater</string>
+		<key>Name</key>
+		<string>1Password Updater</string>
+		<key>NewFile</key>
+		<string>/Applications/1Password 7.app/Contents/XPCServices/1Password Updater Service.xpc/Contents/Helpers/1Password Updater.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>NewFile</key>
+		<string>/Applications/Keyboard Maestro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.bjango.istatmenus</string>
+		<key>Name</key>
+		<string>iStat Menus</string>
+		<key>NewFile</key>
+		<string>/Applications/iStat Menus.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>com.apple.finder</string>
 		<key>Name</key>
 		<string>Finder</string>
@@ -12,19 +68,19 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>com.google.Chrome</string>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>com.omnigroup.OmniFocus3</string>
 		<key>Name</key>
 		<string>OmniFocus</string>
 		<key>NewFile</key>
 		<string>/Applications/OmniFocus.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.iChat</string>
-		<key>Name</key>
-		<string>Messages</string>
-		<key>NewFile</key>
-		<string>/Applications/Messages.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -44,51 +100,11 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.readdle.PDFExpert-Mac</string>
-		<key>Name</key>
-		<string>PDF Expert</string>
-		<key>NewFile</key>
-		<string>/Applications/PDF Expert.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.devon-technologies.thinkpro2</string>
-		<key>Name</key>
-		<string>DEVONthink Pro</string>
-		<key>NewFile</key>
-		<string>/Applications/DEVONthink Pro.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.tencent.xinWeChat</string>
-		<key>Name</key>
-		<string>WeChat</string>
-		<key>NewFile</key>
-		<string>/Applications/WeChat.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.readdle.smartemail-Mac</string>
 		<key>Name</key>
 		<string>Spark</string>
 		<key>NewFile</key>
 		<string>/Applications/Spark.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.kapeli.dashdoc</string>
-		<key>Name</key>
-		<string>Dash</string>
-		<key>NewFile</key>
-		<string>/Applications/Dash.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.omnigroup.OmniGraffle7</string>
-		<key>Name</key>
-		<string>OmniGraffle</string>
-		<key>NewFile</key>
-		<string>/Applications/OmniGraffle.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -100,67 +116,27 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.google.Chrome</string>
+		<string>com.omnigroup.OmniGraffle7</string>
 		<key>Name</key>
-		<string>Google Chrome</string>
+		<string>OmniGraffle</string>
 		<key>NewFile</key>
-		<string>/Applications/Google Chrome.app</string>
+		<string>/Applications/OmniGraffle.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.Terminal</string>
+		<string>com.tencent.xinWeChat</string>
 		<key>Name</key>
-		<string>Terminal</string>
+		<string>WeChat</string>
 		<key>NewFile</key>
-		<string>/Applications/Utilities/Terminal.app</string>
+		<string>/Applications/WeChat.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.parallels.winapp.bbf977b55bd3701863e3adc69358426e.8e554077e3744f54870b0af3a07102d1</string>
+		<string>com.apple.iChat</string>
 		<key>Name</key>
-		<string>eSpace</string>
+		<string>Messages</string>
 		<key>NewFile</key>
-		<string>~/Applications (Parallels)/{8e554077-e374-4f54-870b-0af3a07102d1} Applications.localized/eSpace.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>org.qt-project.Qt.QtWebEngineCore</string>
-		<key>Name</key>
-		<string>Anki</string>
-		<key>NewFile</key>
-		<string>/Applications/Anki.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.systempreferences</string>
-		<key>Name</key>
-		<string>System Preferences</string>
-		<key>NewFile</key>
-		<string>/Applications/System Preferences.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.iWork.Pages</string>
-		<key>Name</key>
-		<string>Pages</string>
-		<key>NewFile</key>
-		<string>/Applications/Pages.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.Dictionary</string>
-		<key>Name</key>
-		<string>Dictionary</string>
-		<key>NewFile</key>
-		<string>/Applications/Dictionary.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.AppStore</string>
-		<key>Name</key>
-		<string>App Store</string>
-		<key>NewFile</key>
-		<string>/Applications/App Store.app</string>
+		<string>/Applications/Messages.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -172,27 +148,27 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.parallels.winapp.82443a5ba49834ff77260dcea13bb65b.8e554077e3744f54870b0af3a07102d1</string>
+		<string>com.kapeli.dashdoc</string>
 		<key>Name</key>
-		<string>Word 2016</string>
+		<string>Dash</string>
 		<key>NewFile</key>
-		<string>~/Applications (Parallels)/{8e554077-e374-4f54-870b-0af3a07102d1} Applications.localized/Word 2016.app</string>
+		<string>/Applications/Dash.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.archiveutility</string>
+		<string>com.citrix.XenAppViewer</string>
 		<key>Name</key>
-		<string>Archive Utility</string>
+		<string>Citrix Viewer</string>
 		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
+		<string>/Applications/Citrix Receiver.app/Contents/Helpers/Citrix Viewer.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.DiskUtility</string>
+		<string>com.citrix.receiver.nomas</string>
 		<key>Name</key>
-		<string>Disk Utility</string>
+		<string>Citrix Receiver</string>
 		<key>NewFile</key>
-		<string>/Applications/Utilities/Disk Utility.app</string>
+		<string>/Applications/Citrix Receiver.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -204,6 +180,134 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>com.parallels.winapp.bbf977b55bd3701863e3adc69358426e.8e554077e3744f54870b0af3a07102d1</string>
+		<key>Name</key>
+		<string>eSpace</string>
+		<key>NewFile</key>
+		<string>~/Applications (Parallels)/{8e554077-e374-4f54-870b-0af3a07102d1} Applications.localized/eSpace.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>cx.c3.theunarchiver</string>
+		<key>Name</key>
+		<string>The Unarchiver</string>
+		<key>NewFile</key>
+		<string>/Applications/The Unarchiver.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.AppStore</string>
+		<key>Name</key>
+		<string>App Store</string>
+		<key>NewFile</key>
+		<string>/Applications/App Store.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.citrix.ReceiverUpdater</string>
+		<key>Name</key>
+		<string>Citrix Receiver Updater</string>
+		<key>NewFile</key>
+		<string>~/Library/Caches/Citrix Receiver/Citrix Receiver Updater.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.agilebits.onepassword7</string>
+		<key>Name</key>
+		<string>1Password 7</string>
+		<key>NewFile</key>
+		<string>/Applications/1Password 7.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.parallels.winapp.567941d208cb4a0fbe309a1e10923319.8e554077e3744f54870b0af3a07102d1</string>
+		<key>Name</key>
+		<string>文件资源管理器</string>
+		<key>NewFile</key>
+		<string>~/Applications (Parallels)/{8e554077-e374-4f54-870b-0af3a07102d1} Applications.localized/文件资源管理器.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.microsoft.Excel</string>
+		<key>Name</key>
+		<string>Microsoft Excel</string>
+		<key>NewFile</key>
+		<string>/Applications/Microsoft Excel.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.parallels.winapp.76868ae832f6c6bd26cadc7d7c269986.8e554077e3744f54870b0af3a07102d1</string>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>NewFile</key>
+		<string>~/Applications (Parallels)/{8e554077-e374-4f54-870b-0af3a07102d1} Applications.localized/Google Chrome.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.microsoft.Word</string>
+		<key>Name</key>
+		<string>Microsoft Word</string>
+		<key>NewFile</key>
+		<string>/Applications/Microsoft Word.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iWork.Pages</string>
+		<key>Name</key>
+		<string>Pages</string>
+		<key>NewFile</key>
+		<string>/Applications/Pages.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.installer</string>
+		<key>Name</key>
+		<string>Installer</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Installer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Preview</string>
+		<key>Name</key>
+		<string>Preview</string>
+		<key>NewFile</key>
+		<string>/Applications/Preview.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.archiveutility</string>
+		<key>Name</key>
+		<string>Archive Utility</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Terminal</string>
+		<key>Name</key>
+		<string>Terminal</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Terminal.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>net.freemacsoft.AppCleaner</string>
+		<key>Name</key>
+		<string>AppCleaner</string>
+		<key>NewFile</key>
+		<string>/Applications/AppCleaner.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.DiskUtility</string>
+		<key>Name</key>
+		<string>Disk Utility</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Disk Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>com.apple.iTunes</string>
 		<key>Name</key>
 		<string>iTunes</string>
@@ -212,43 +316,19 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.Safari</string>
+		<string>com.apple.iWork.Keynote</string>
 		<key>Name</key>
-		<string>Safari</string>
+		<string>Keynote</string>
 		<key>NewFile</key>
-		<string>/Applications/Safari.app</string>
+		<string>/Applications/Keynote.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.mail</string>
+		<string>org.qt-project.Qt.QtWebEngineCore</string>
 		<key>Name</key>
-		<string>Mail</string>
+		<string>Anki</string>
 		<key>NewFile</key>
-		<string>/Applications/Mail.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.evernote.Evernote</string>
-		<key>Name</key>
-		<string>Evernote</string>
-		<key>NewFile</key>
-		<string>/Applications/Evernote.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.Console</string>
-		<key>Name</key>
-		<string>Console</string>
-		<key>NewFile</key>
-		<string>/Applications/Utilities/Console.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.iWork.Numbers</string>
-		<key>Name</key>
-		<string>Numbers</string>
-		<key>NewFile</key>
-		<string>/Applications/Numbers.app</string>
+		<string>/Applications/Anki.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -260,35 +340,107 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>com.parallels.winapp.e366ccf1556c0672dcecba135ed5472e.8e554077e3744f54870b0af3a07102d1</string>
+		<key>Name</key>
+		<string>设置</string>
+		<key>NewFile</key>
+		<string>~/Applications (Parallels)/{8e554077-e374-4f54-870b-0af3a07102d1} Applications.localized/设置.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.evernote.Evernote</string>
+		<key>Name</key>
+		<string>Evernote</string>
+		<key>NewFile</key>
+		<string>/Applications/Evernote.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iWork.Numbers</string>
+		<key>Name</key>
+		<string>Numbers</string>
+		<key>NewFile</key>
+		<string>/Applications/Numbers.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.tinyapp.TablePlus</string>
+		<key>Name</key>
+		<string>TablePlus</string>
+		<key>NewFile</key>
+		<string>/Applications/TablePlus.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.docker.docker</string>
+		<key>Name</key>
+		<string>Docker</string>
+		<key>NewFile</key>
+		<string>/Applications/Docker.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.mail</string>
+		<key>Name</key>
+		<string>Mail</string>
+		<key>NewFile</key>
+		<string>/Applications/Mail.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.omnigroup.CrashCatcher</string>
+		<key>Name</key>
+		<string>OmniGroupCrashCatcher</string>
+		<key>NewFile</key>
+		<string>/Applications/OmniFocus.app/Contents/Frameworks/OmniCrashCatcher.framework/Versions/A/Resources/OmniGroupCrashCatcher.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.ScriptEditor2</string>
+		<key>Name</key>
+		<string>Script Editor</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Script Editor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.parallels.winapp.c8147c417f21cb90eab61d43a39de01f.8e554077e3744f54870b0af3a07102d1</string>
+		<key>Name</key>
+		<string>CDViewer</string>
+		<key>NewFile</key>
+		<string>~/Applications (Parallels)/{8e554077-e374-4f54-870b-0af3a07102d1} Applications.localized/CDViewer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.logitech.Logi-Options</string>
+		<key>Name</key>
+		<string>Logitech Options</string>
+		<key>NewFile</key>
+		<string>/Applications/Logi Options.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Safari</string>
+		<key>Name</key>
+		<string>Safari</string>
+		<key>NewFile</key>
+		<string>/Applications/Safari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Console</string>
+		<key>Name</key>
+		<string>Console</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Console.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>com.apple.TextEdit</string>
 		<key>Name</key>
 		<string>TextEdit</string>
 		<key>NewFile</key>
 		<string>/Applications/TextEdit.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.stairways.keyboardmaestro.editor</string>
-		<key>Name</key>
-		<string>Keyboard Maestro</string>
-		<key>NewFile</key>
-		<string>/Applications/Keyboard Maestro.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.agilebits.onepassword7-updater</string>
-		<key>Name</key>
-		<string>1Password Updater</string>
-		<key>NewFile</key>
-		<string>/Applications/1Password 7.app/Contents/XPCServices/1Password Updater Service.xpc/Contents/Helpers/1Password Updater.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.agilebits.onepassword7</string>
-		<key>Name</key>
-		<string>1Password 7</string>
-		<key>NewFile</key>
-		<string>/Applications/1Password 7.app</string>
 	</dict>
 </array>
 </plist>
