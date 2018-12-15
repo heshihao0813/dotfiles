@@ -4,6 +4,14 @@
 <array>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>com.bjango.istatmenus</string>
+		<key>Name</key>
+		<string>iStat Menus</string>
+		<key>NewFile</key>
+		<string>/Applications/iStat Menus.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>com.apple.systempreferences</string>
 		<key>Name</key>
 		<string>System Preferences</string>
@@ -49,14 +57,6 @@
 		<string>Keyboard Maestro</string>
 		<key>NewFile</key>
 		<string>/Applications/Keyboard Maestro.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.bjango.istatmenus</string>
-		<key>Name</key>
-		<string>iStat Menus</string>
-		<key>NewFile</key>
-		<string>/Applications/iStat Menus.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
