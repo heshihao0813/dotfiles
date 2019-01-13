@@ -1,4 +1,4 @@
-# Recent settings file for Wireshark 2.6.0.
+# Recent settings file for Wireshark 2.6.5.
 #
 # This file is regenerated each time Wireshark is quit.
 # So be careful, if you want to make manual changes here.
@@ -56,6 +56,15 @@ privs.warn_if_elevated: TRUE
 # Warn if npf.sys isn't loaded on Windows >= 6.0.
 # TRUE or FALSE (case-insensitive).
 privs.warn_if_no_npf: TRUE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 620
+gui.geom.PreferencesDialog.y: 291
+gui.geom.PreferencesDialog.width: 732
+gui.geom.PreferencesDialog.height: 475
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
 
 # Custom colors.
 # List of custom colors selected in Qt color picker.
